@@ -11,7 +11,7 @@ public class ScreenshotHandler : MonoBehaviour {
     public Camera myCamera;
     public bool takeScreenshotOnNextFrame;
 
-    private void Awake() {
+    public void Awake() {
         instance = this;
         myCamera = gameObject.GetComponent<Camera>();
     }
