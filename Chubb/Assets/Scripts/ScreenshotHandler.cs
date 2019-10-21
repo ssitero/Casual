@@ -1,14 +1,4 @@
-﻿/* 
-    ------------------- Code Monkey -------------------
-
-    Thank you for downloading this Code Monkey project
-    I hope you find it useful in your own projects
-    If you have any questions let me know
-    Cheers!
-
-               unitycodemonkey.com
-    --------------------------------------------------
- */
+﻿
 
 using System.Collections;
 using System.Collections.Generic;
@@ -16,17 +6,17 @@ using UnityEngine;
 
 public class ScreenshotHandler : MonoBehaviour {
 
-    private static ScreenshotHandler instance;
+    public static ScreenshotHandler instance;
 
-    private Camera myCamera;
-    private bool takeScreenshotOnNextFrame;
+    public Camera myCamera;
+    public bool takeScreenshotOnNextFrame;
 
     private void Awake() {
         instance = this;
         myCamera = gameObject.GetComponent<Camera>();
     }
 
-    private void OnPostRender() {
+    public void OnPostRender() {
         if (takeScreenshotOnNextFrame) {
             takeScreenshotOnNextFrame = false;
             RenderTexture renderTexture = myCamera.targetTexture;
@@ -44,7 +34,7 @@ public class ScreenshotHandler : MonoBehaviour {
         }
     }
 
-    private void TakeScreenshot(int width, int height) {
+    public void TakeScreenshot(int width, int height) {
         myCamera.targetTexture = RenderTexture.GetTemporary(width, height, 16);
         takeScreenshotOnNextFrame = true;
     }
