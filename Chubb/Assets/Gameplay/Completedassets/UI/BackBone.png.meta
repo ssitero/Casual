@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-guid: 127c0e90fbb68054caad38fddcc574cc
+guid: 5a3505432e1fe8e418cd132a7db27e33
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -3297822629937146059
-    second: BlinkChubStanding_0
-  - first:
-      213: -2349864737109003303
-    second: BlinkChubStanding_1
-  - first:
-      213: 1745113479775711844
-    second: BlinkChubStanding_2
-  - first:
-      213: -8812511018319816228
-    second: BlinkChubStanding_3
-  - first:
-      213: 5444713997156818731
-    second: BlinkChubStanding_4
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -55,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -130,116 +115,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: BlinkChubStanding_0
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 34
-        width: 902
-        height: 757
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6194b60a75030c145af709db4aae310d
-      internalID: -3297822629937146059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlinkChubStanding_1
-      rect:
-        serializedVersion: 2
-        x: 978
-        y: 34
-        width: 903
-        height: 758
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d43a0c168d5257643a36c82af998bd35
-      internalID: -2349864737109003303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlinkChubStanding_2
-      rect:
-        serializedVersion: 2
-        x: 1929
-        y: 34
-        width: 902
-        height: 757
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7e238bd8b24cfa41ba600e5e8a87a36
-      internalID: 1745113479775711844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlinkChubStanding_3
-      rect:
-        serializedVersion: 2
-        x: 2877
-        y: 34
-        width: 905
-        height: 758
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e9c8d979c512fc4e9020b7ab95a98b1
-      internalID: -8812511018319816228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlinkChubStanding_4
-      rect:
-        serializedVersion: 2
-        x: 3828
-        y: 34
-        width: 902
-        height: 757
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ad7c904446221d4f8ed349d44c32c99
-      internalID: 5444713997156818731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4a70873b1d8b93a47bbf11b66ea0db08
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
